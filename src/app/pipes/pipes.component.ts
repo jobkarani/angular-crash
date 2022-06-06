@@ -12,6 +12,12 @@ import { Component, OnInit } from '@angular/core';
   <h2>{{5.678 | number:'1.2-3'}}</h2>
   <h2>{{5.678 | number:'3.4-5'}}</h2>
   <h2>{{5.678 | number:'3.1-2'}}</h2>
+
+  <h2>{{0.25 | percent}}</h2>
+
+  <h2>{{0.25 | currency}}</h2>
+  <h2>{{0.25 | currency:'GBP':'code'}}</h2>
+
   `,
   styles: []
 })
