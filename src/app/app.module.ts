@@ -29,7 +29,7 @@ import { ComponentInteractionComponent } from './component-interaction/component
     StructuralDirectivesComponent,
     NgswitchdirectiveComponent,
     NgForDirectiveComponent,
-    ComponentInteractionComponent
+    ComponentInteractionComponent,
   ],
   imports: [
     BrowserModule,

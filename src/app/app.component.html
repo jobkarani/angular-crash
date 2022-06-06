@@ -2,5 +2,7 @@
   <h1>
     welcome to {{title}}
   </h1>
+  <!-- child to parent -->
+  {{message}}
 </div>
-<app-component-interaction [parentData]="name" ></app-component-interaction>
+<app-component-interaction (childEvent)="message=$event" [parentData]="name" ></app-component-interaction>

@@ -9,4 +9,5 @@ export class AppComponent {
   title = 'AngularCrash';
 
   public name = "Ayub";
+  public message = "";
 }
