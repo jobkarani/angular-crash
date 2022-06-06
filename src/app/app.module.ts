@@ -15,6 +15,7 @@ import { StructuralDirectivesComponent } from './structural-directives/structura
 import { NgswitchdirectiveComponent } from './ngswitchdirective/ngswitchdirective.component';
 import { NgForDirectiveComponent } from './ng-for-directive/ng-for-directive.component';
 import { ComponentInteractionComponent } from './component-interaction/component-interaction.component';
+import { PipesComponent } from './pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { ComponentInteractionComponent } from './component-interaction/component
     NgswitchdirectiveComponent,
     NgForDirectiveComponent,
     ComponentInteractionComponent,
+    PipesComponent,
   ],
   imports: [
     BrowserModule,
