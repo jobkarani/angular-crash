@@ -13,6 +13,7 @@ import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component'
 import { FormsModule } from '@angular/forms';
 import { StructuralDirectivesComponent } from './structural-directives/structural-directives.component';
 import { NgswitchdirectiveComponent } from './ngswitchdirective/ngswitchdirective.component';
+import { NgForDirectiveComponent } from './ng-for-directive/ng-for-directive.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { NgswitchdirectiveComponent } from './ngswitchdirective/ngswitchdirectiv
     TemplatereferencevariablesComponent,
     TwowaybindingComponent,
     StructuralDirectivesComponent,
-    NgswitchdirectiveComponent
+    NgswitchdirectiveComponent,
+    NgForDirectiveComponent
   ],
   imports: [
     BrowserModule,
