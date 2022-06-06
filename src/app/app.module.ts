@@ -9,6 +9,8 @@ import { ClassbindingComponent } from './classbinding/classbinding.component';
 import { StylebindingComponent } from './stylebinding/stylebinding.component';
 import { EventbindingComponent } from './eventbinding/eventbinding.component';
 import { TemplatereferencevariablesComponent } from './templatereferencevariables/templatereferencevariables.component';
+import { TwowaybindingComponent } from './twowaybinding/twowaybinding.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { TemplatereferencevariablesComponent } from './templatereferencevariable
     ClassbindingComponent,
     StylebindingComponent,
     EventbindingComponent,
-    TemplatereferencevariablesComponent
+    TemplatereferencevariablesComponent,
+    TwowaybindingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
